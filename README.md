@@ -12,9 +12,10 @@ EmojiAdventure is an interactive digital art project that brings emojis to life 
 
 EmojiAdventure uses Perlin noise to generate a smoothly changing pattern across the canvas. Each point on this pattern is mapped to a specific emoji from the Unicode range. As you move your mouse, the view shifts, revealing new patterns and combinations of emojis.
 
-<p align="center">
-  <img src="src\assets\img\Perlin-Noise-Field.png" alt="Image of a Perlin Noise Field in Black and White" style="width:400px; height:300px;">
-</p>
+<div align="center">
+  <img src="src\assets\img\Perlin-Noise-Field.png" alt="Image of a Perlin Noise Field in Black and Whit" style="width:400px; height:300px;">
+  <p style="text-align: center;">Image of a Perlin Noise Field in Black and White.</p>
+</div>
 
 ## Customization
 
