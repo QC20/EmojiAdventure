@@ -11,7 +11,7 @@
 let xOffset = 0;
 let yOffset = 0;
 const FONT_SIZE = 16;
-const NOISE_SCALE = 0.006;
+const NOISE_SCALE = 0.00125;
 const EMOJI_CATEGORIES = {
     blue: [],
     cyan: [],
@@ -127,19 +127,19 @@ function calculateNoiseValue(x, y, time) {
  */
 function getEmojiFromNoiseValue(noiseValue) {
     let category;
-    if (noiseValue < 0.125) {
+    if (noiseValue < 0.25) {
       category = 'blue';
-    } else if (noiseValue < 0.25) {
+    } else if (noiseValue < 0.3) {
       category = 'cyan';
-    } else if (noiseValue < 0.375) {
+    } else if (noiseValue < 0.4) {
       category = 'green';
     } else if (noiseValue < 0.5) {
       category = 'yellow';
-    } else if (noiseValue < 0.625) {
+    } else if (noiseValue < 0.6) {
       category = 'orange';
-    } else if (noiseValue < 0.75) {
+    } else if (noiseValue < 0.7) {
       category = 'red';
-    } else if (noiseValue < 0.875) {
+    } else if (noiseValue < 0.8) {
       category = 'purple';
     } else {
       category = 'magenta';
@@ -154,7 +154,7 @@ function getEmojiFromNoiseValue(noiseValue) {
  * Handle mouse dragging to update offsets
  */
 function mouseDragged() {
-  xOffset += (pmouseX - mouseX) * 0.1;
+  xOffset += (pmouseX - mouseX) * 0.4;
   yOffset += (pmouseY - mouseY) * 0.1;
 }
 

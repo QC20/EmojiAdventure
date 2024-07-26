@@ -15,7 +15,7 @@ const FONT_SIZE = 16;
 const NOISE_SCALE = 0.0004;
 const EMOJI_RANGE = {
   lower: 0x1f300, // Starting Unicode value for emojis
-  upper: 0x1f9ff, // Ending Unicode value for emojis
+  upper: 0x1fa9f  // Extended Ending Unicode value for flags and other emojis
   /**
     [0x1F300, 0x1F5FF], // Miscellaneous Symbols and Pictographs
     [0x1F600, 0x1F64F], // Emoticons
