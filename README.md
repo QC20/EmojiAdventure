@@ -38,6 +38,8 @@ To run EmojiAdventure locally:
 
 We welcome contributions! Whether it's adding new features, improving performance, or fixing bugs, feel free to fork this repo and submit a pull request.
 
+
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
